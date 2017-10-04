@@ -112,6 +112,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 fb93f5235abe30b0d49ec13689ae7899 Assembly-CSharp.dll:.SpawnObjetos
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DestroyObjetos
 8741891bcba59ebaecba3f96c65f7f66 Assembly-CSharp.dll:.PlayerHelp
+a5e9930c6029c728c14d14bdef1ffb0b Assembly-CSharp.dll:.ManageGameOver
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -138,4 +139,3 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ManageAbout
 f27a041670223d8ae0706dd3755f662b Assembly-CSharp.dll:.ManageHelp
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ManageBegin
-e677ec2d4e12c9d335e7c5d92515e09f Assembly-CSharp.dll:.ManageGameOver

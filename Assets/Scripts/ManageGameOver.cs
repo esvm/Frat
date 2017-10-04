@@ -1,6 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
-//using UnityEngine.SceneManagement;
 using UnityEngine.SceneManagement;
 using Assets.Scripts;
 using UnityEngine.UI;
@@ -8,11 +6,12 @@ using UnityEngine.UI;
 public class ManageGameOver : MonoBehaviour
 {
     public GameObject GameOver;
-    public InputField InputField;
+    public InputField inputField;
     public Canvas Canvas;
 
     void Start()
     {
+
         GameOver.SetActive(false);
     }
 
@@ -20,7 +19,8 @@ public class ManageGameOver : MonoBehaviour
     {
         Ranking ranking = new Ranking();
         ranking.Deserialize();
-        Ranking.ranking.Add(new Ranking(InputField.text, PlayerPrefs.GetInt("Score", 0)));
+        Debug.Log(inputField.text);
+        Ranking.ranking.Add(new Ranking(inputField.text, PlayerPrefs.GetInt("Score", 0)));
         Canvas.gameObject.SetActive(false);
         GameOver.SetActive(true);
         ranking.Serialize();
